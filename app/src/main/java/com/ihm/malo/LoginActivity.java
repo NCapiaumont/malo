@@ -346,5 +346,20 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(false);
         }
     }
+
+    public void createAccountAction(View v) {
+        //change to activity_create_account
+        setContentView(R.layout.activity_create_account);
+    }
+
+    public void passwordForgetAction(View v) {
+        //change to activity_password_forget
+        setContentView(R.layout.activity_password_forget);
+    }
+
+    public void loginAction(View v) {
+        //change to activity_calendar
+        setContentView(R.layout.activity_calendar);
+    }
 }
 

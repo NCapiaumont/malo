@@ -11,6 +11,7 @@
     tools:context="com.ihm.malo.LoginActivity">
 
     <!-- Login progress -->
+
     <ProgressBar
         android:id="@+id/login_progress"
         style="?android:attr/progressBarStyleLarge"
@@ -70,7 +71,38 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="loginAction" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/forget_password"
+                android:id="@+id/mdp_oublie"
+                android:textColor="#4672f8"
+                android:textColorHighlight="#114bfb"
+                android:clickable="true"
+                android:onClick="passwordForgetAction" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remember_me"
+                android:id="@+id/se_souvenir"
+                android:checked="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/new_account"
+                android:id="@+id/creer_compte"
+                android:layout_gravity="right"
+                android:textColor="#4672f8"
+                android:textColorHighlight="#114bfb"
+                android:clickable="true"
+                android:onClick="createAccountAction" />
 
         </LinearLayout>
     </ScrollView>
