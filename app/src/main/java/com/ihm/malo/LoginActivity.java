@@ -90,6 +90,24 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             }
         });
 
+        TextView mdpOublie = (TextView) findViewById(R.id.mdp_oublie);
+        mdpOublie.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //change to activity_password_forget
+                setContentView(R.layout.activity_losing_password);
+            }
+        });
+
+        TextView creerCompte = (TextView) findViewById(R.id.creer_compte);
+        creerCompte.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //change to activity_create_account
+                setContentView(R.layout.activity_create_account);
+            }
+        });
+
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
     }
@@ -187,6 +205,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             showProgress(true);
             mAuthTask = new UserLoginTask(email, password);
             mAuthTask.execute((Void) null);
+            //change to calendar activity
+            setContentView(R.layout.activity_calendar);
         }
     }
 
@@ -345,21 +365,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             mAuthTask = null;
             showProgress(false);
         }
-    }
-
-    public void createAccountAction(View v) {
-        //change to activity_create_account
-        setContentView(R.layout.activity_create_account);
-    }
-
-    public void passwordForgetAction(View v) {
-        //change to activity_password_forget
-        setContentView(R.layout.activity_password_forget);
-    }
-
-    public void loginAction(View v) {
-        //change to activity_calendar
-        setContentView(R.layout.activity_calendar);
     }
 }
 
