@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 include ':app', ':app'
-=======
-include ':app'
->>>>>>> origin/master
