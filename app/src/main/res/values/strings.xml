@@ -4,6 +4,7 @@
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Mot de passe</string>
+    <string name="forget_password">Mot de passe oublié</string>
     <string name="action_sign_in">Connexion</string>
     <string name="action_sign_in_short">Connexion</string>
     <string name="error_invalid_email">Cette adresse email est invalide</string>
@@ -13,4 +14,16 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="new_account">Créer un compte</string>
+    <string name="remember_me">Se souvenir de moi</string>
+    <string name="title_calendar">Calendrier</string>
+    <string name="title_new_account">Nouvel utilisateur</string>
+    <string name="title_connection">Connexion</string>
+    <string name="title_activity_calendar">CalendarActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Connexion</string>
 </resources>
