@@ -9,6 +9,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.ihm.malo.LosingPasswordActivity">
+    tools:context="com.ihm.malo.NoFamilyActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bienvenue sur Malo Ibitssam, crée ou rejoins une famille"
+        android:id="@+id/TextViewBienvenue" />
 
 </LinearLayout>
