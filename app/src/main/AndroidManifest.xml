@@ -24,7 +24,8 @@
         <activity android:name=".LosingPasswordActivity" />
         <activity android:name=".CreateAccountActivity" />
         <activity android:name=".NoFamilyActivity" />
-        <activity android:name=".CreateFamilyActivity"></activity>
+        <activity android:name=".CreateFamilyActivity" />
+        <activity android:name=".FamilyActivity"></activity>
     </application>
 
 </manifest>
