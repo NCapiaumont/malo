@@ -23,7 +23,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LosingPasswordActivity" />
         <activity android:name=".CreateAccountActivity" />
-        <activity android:name=".NoFamilyActivity"></activity>
+        <activity android:name=".NoFamilyActivity" />
+        <activity android:name=".CreateFamilyActivity"></activity>
     </application>
 
 </manifest>

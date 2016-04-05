@@ -13,6 +13,7 @@ public class CreateAccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_account);
 
         TextView inscription = (TextView) findViewById(R.id.inscriptionButton);
+        assert inscription != null;
         inscription.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
