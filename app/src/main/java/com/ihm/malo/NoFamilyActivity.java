@@ -11,7 +11,6 @@ public class NoFamilyActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_no_family);
-
         Button creerFamille = (Button) findViewById(R.id.ButtonCreerFamille);
         assert creerFamille != null;
         creerFamille.setOnClickListener(new View.OnClickListener() {
@@ -20,6 +19,5 @@ public class NoFamilyActivity extends AppCompatActivity {
                 setContentView(R.layout.activity_create_family);
             }
         });
-
     }
 }
