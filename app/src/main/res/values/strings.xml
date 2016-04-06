@@ -14,7 +14,7 @@
     <string name="error_invalid_password">Ce mot de passe est trop court</string>
     <string name="error_incorrect_password">Ce mot de passe est incorrecte</string>
     <string name="error_field_required">Ce champ est requis</string>
-    <string name="error_no_invitation_family">Vous n'avez pas encore d'invitation à rejoindre une famille</string>
+    <string name="error_no_invitation_family">Vous n\'avez pas encore d\'invitation à rejoindre une famille</string>
 
     <!-- Strings related action -->
     <string name="action_sign_in">Connexion</string>
