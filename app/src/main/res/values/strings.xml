@@ -48,5 +48,10 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
+    <string name="title_menu_configuration">Configuration</string>
+    <string name="title_my_account">Mon Compte</string>
+    <string name="title_menu_deconnection">Déconnexion</string>
+    <string name="title_list_shopping">Liste des courses</string>
+    <string name="title_menu_app">Application</string>
 
 </resources>

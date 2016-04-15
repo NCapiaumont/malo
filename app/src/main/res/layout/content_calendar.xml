@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/title_calendar"
-        android:id="@+id/textView6"
+        android:id="@+id/textViewTitle"
         android:layout_gravity="center_horizontal"
         android:clickable="false"
         android:height="50dp"
@@ -30,5 +30,9 @@
     <CalendarView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/calendarView" />
+        android:id="@+id/calendarView"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:longClickable="true" />
+
 </LinearLayout>

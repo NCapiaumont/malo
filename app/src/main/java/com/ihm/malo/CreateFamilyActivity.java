@@ -13,7 +13,6 @@ public class CreateFamilyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_create_family);
 
         Button creerFamille = (Button) findViewById(R.id.button_create_family);
-        assert creerFamille != null;
         creerFamille.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

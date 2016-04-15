@@ -26,7 +26,6 @@ public class FamilyActivity extends AppCompatActivity {
         //Contenant une TextView avec comme identifiant "@android:id/text1"
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(FamilyActivity.this,
                 android.R.layout.simple_list_item_1, prenoms);
-        assert listViewFamille != null;
         listViewFamille.setAdapter(adapter);
     }
 }
