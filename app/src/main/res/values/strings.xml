@@ -14,7 +14,8 @@
     <string name="error_invalid_password">Ce mot de passe est trop court</string>
     <string name="error_incorrect_password">Ce mot de passe est incorrecte</string>
     <string name="error_field_required">Ce champ est requis</string>
-    <string name="error_no_invitation_family">Vous n'avez pas encore d'invitation à rejoindre une famille</string>
+    <string name="error_no_invitation_family">Vous n\'avez pas encore d\'invitation à rejoindre une famille</string>
+
 
     <!-- Strings related action -->
     <string name="action_sign_in">Connexion</string>
@@ -47,5 +48,10 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_settings">Settings</string>
-    
+    <string name="title_menu_configuration">Configuration</string>
+    <string name="title_my_account">Mon Compte</string>
+    <string name="title_menu_deconnection">Déconnexion</string>
+    <string name="title_list_shopping">Liste des courses</string>
+    <string name="title_menu_app">Application</string>
+
 </resources>

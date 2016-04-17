@@ -12,7 +12,6 @@ public class NoFamilyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_no_family);
         Button creerFamille = (Button) findViewById(R.id.ButtonCreerFamille);
-        assert creerFamille != null;
         creerFamille.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
