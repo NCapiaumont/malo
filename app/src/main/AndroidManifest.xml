@@ -26,6 +26,8 @@
         <activity android:name=".NoFamilyActivity" />
         <activity android:name=".CreateFamilyActivity" />
         <activity android:name=".FamilyActivity" />
+        <activity android:name=".AccountActivity" />
+        <activity android:name=".shoppingActivity"></activity>
     </application>
 
 </manifest>

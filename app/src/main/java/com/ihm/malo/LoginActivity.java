@@ -61,7 +61,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
 
         Button mEmailSignInButton = (Button) findViewById(R.id.email_sign_in_button);
-        assert mEmailSignInButton != null;
         mEmailSignInButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,7 +69,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
 
         TextView mdpOublie = (TextView) findViewById(R.id.mdp_oublie);
-        assert mdpOublie != null;
         mdpOublie.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,7 +78,6 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         });
 
         TextView creerCompte = (TextView) findViewById(R.id.creer_compte);
-        assert creerCompte != null;
         creerCompte.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
