@@ -7,7 +7,13 @@
     <string name="prompt_password">Mot de passe</string>
     <string name="prompt_password_confirmation">Confirmer mot de passe</string>
     <string name="remember_me">Se souvenir de moi</string>
+    <string name="prompt_birhtday">Date de naissance</string>
+    <string name="prompt_phone_number">Numéro de tel</string>
+    <string name="prompt_twitter">\@twitter</string>
     <string name="prompt_name_family">Nom de la famille</string>
+    <string name="prompt_user_name">Nom d\'utilisateur</string>
+    <string name="prompt_task_date">date de l\'activité</string>
+
 
     <!-- Strings related field error -->
     <string name="error_invalid_email">Cette adresse email est invalide</string>
@@ -21,6 +27,8 @@
     <string name="action_sign_in">Connexion</string>
     <string name="action_sign_in_short">Connexion</string>
     <string name="forget_password">Mot de passe oublié</string>
+    <string name="action_confirm_update">Confirmer</string>
+    <string name="action_cancel_update">Annuler</string>
     <string name="new_account">Créer un compte</string>
     <string name="action_register">Inscription</string>
     <string name="action_send_password">Renvoyer mot de passe</string>
@@ -29,6 +37,7 @@
     <!-- Strings related title page -->
     <string name="title_calendar">Calendrier</string>
     <string name="title_new_account">Nouvel utilisateur</string>
+    <string name="title_task">Activité</string>
     <string name="title_connection">Connexion</string>
     <string name="title_activity_calendar">CalendarActivity</string>
     <string name="title_activity_login">Connexion</string>
@@ -53,5 +62,7 @@
     <string name="title_menu_deconnection">Déconnexion</string>
     <string name="title_list_shopping">Liste des courses</string>
     <string name="title_menu_app">Application</string>
+    <string name="title_My_Account">Mon compte</string>
+
 
 </resources>

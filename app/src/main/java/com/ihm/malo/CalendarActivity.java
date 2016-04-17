@@ -23,6 +23,7 @@ public class CalendarActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
 
+
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         CalendarView monCalendrier = (CalendarView) findViewById(R.id.calendarView);

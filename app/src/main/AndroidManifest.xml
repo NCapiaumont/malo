@@ -27,7 +27,8 @@
         <activity android:name=".CreateFamilyActivity" />
         <activity android:name=".FamilyActivity" />
         <activity android:name=".AccountActivity" />
-        <activity android:name=".shoppingActivity"></activity>
+        <activity android:name=".shoppingActivity" />
+        <activity android:name=".TaskActivity"></activity>
     </application>
 
 </manifest>
